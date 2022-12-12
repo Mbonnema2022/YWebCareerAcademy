@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Yweb MidTerm Survey Form </h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form" action='https://register-demo.https://www.ywca-ens.org/'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="name" name="first-name" placeholder="Jane"type="text" required </label>
+        <label for="last-name">Enter Your Last Name: <input id="name-label" name="last-name" placeholder="Smith" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" name="email-label"required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="student-account"><input id="student-account" type="radio" name="account-type" class="inline"value="student" /> Student Account</label>
+        <label for="staff-account"><input id="staff-account" type="radio" name="account-type" class="inline" value="staff"/> Staff Account</label>
+        <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="terns"/> I accept the <a href="https://www.ywca-ens.org/connect-with-us/privacy-policy/">YWCA privacy policies</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="number" type="number" name="age" id="number-label"min="13" max="120"placeholder="13" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">yweb alumni</option>
+            <option value="2">ywca webpage</option>
+            <option value="3">referrel</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a brief statement of your experience :
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+          <fieldset>What do you like most about Yweb Career Academy?
+
+    <select id="dropdown" name="dropdown">
+
+      <option value="">(select one)</option>
+
+      <option value="1">free learning</option>
+
+      <option value="2">free laptop</option>
+      <option value="3">stipend</option>
+      <option value="4">extended case management</option>
+      <option value="5">other</option>
+
+    </select>
+
+    </fieldset>
+
+  <fieldset>Would you recommend our program to someone else?
+
+    <label><input type="radio" name="referral" class="inline" value="referral"/>Yes</label>
+
+  <label><input type="radio" name="referral" class="inline" value="referral"/>No</label></fieldset>
+
+  <fieldset>What would you like us to improve on? (check all that apply)
+
+  <label><input type="checkbox" value="suggest" name="price" value="Time" class="inline">length of course</label>
+
+  <label><input type="checkbox" value="checkboxes" name="delivery" value="Speed" class="inline">speed of instruction</label>
+
+  <label><input type="checkbox" value="checkboxes" name="packaging" value="gifts" class="inline">amenities</label>
+
+  <label><input type="checkbox" value="checkboxes" name="customer service" value="Case Management" class="inline">Case Management</label></fieldset>
+
+  <fieldset>
+<fieldset>Now that you are at the midterm Point what is most importent for you? (check all that apply)
+
+  <label><input type="checkbox" value="suggest" name="price" value="Time" class="inline">Finding a job</label>
+
+  <label><input type="checkbox" value="checkboxes" name="delivery" value="Speed" class="inline">Tutoring</label>
+
+  <label><input type="checkbox" value="checkboxes" name="packaging" value="gifts" class="inline">Buspass/GasCard</label>
+
+  <label><input type="checkbox" value="checkboxes" name="customer service" value="Case Management" class="inline">Possibility of additional time in class after graduation</label></fieldset>
+
+  <fieldset>
+       <label>Additional Comment: <textarea rows="3" cols="30" name="textarea"></textarea></label>
+
+  <button id="submit" type="submit" value="Submit">Submit</button>
+
+  </form>
+
+  </body>
+
+  </html>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+</html>
